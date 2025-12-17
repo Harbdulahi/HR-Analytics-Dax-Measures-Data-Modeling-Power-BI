@@ -4,7 +4,7 @@
 This project presents an HR analytics dashboard built in Power BI to monitor workforce composition, hiring trends, attrition, compensation, and employee performance.  
 The dashboard is designed for HR managers and executives to quickly assess the current state of the workforce and identify potential risk areas.
 
-The analysis is descriptive and diagnostic. No machine learning is used.
+The analysis is descriptive and diagnostic.
 
 ---
 
@@ -22,7 +22,7 @@ Provide a centralized HR overview to answer:
 ## Dataset
 HR employee-level dataset containing demographic, employment, performance, and recruitment information.
 
-Typical fields include:
+Fields(columns) include:
 - Employee ID
 - Department
 - Job Role
@@ -60,6 +60,8 @@ Typical fields include:
 ---
 
 ### Visualizations
+
+![HR dashboard](https://github.com/Harbdulahi/HR-Analytics-Dax-Measures-Data-Modeling-Power-BI/blob/main/HR%20Analytics/up.jpg)
 
 #### Hire by Year
 Line/area chart showing hiring trends over time.  
@@ -115,13 +117,6 @@ All visuals update dynamically based on selected filters.
 
 ---
 
-## Limitations
-- No predictive attrition or hiring models.
-- Historical data only.
-- Assumes data accuracy from HR source systems.
-
----
-
 ## Tools Used
 - Power BI
 - DAX (measures and calculated columns)
@@ -137,3 +132,4 @@ This project demonstrates:
 - Dashboard storytelling
 - Executive-ready reporting
 
+[YT video](https://youtu.be/BXNf5buF76Q?si=GA5-mZpBFJ7N_qxs)
